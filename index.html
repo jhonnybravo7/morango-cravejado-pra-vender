@@ -103,5 +103,9 @@
       new IntersectionObserver(entries => sticky.classList.toggle('visible', !entries[0].isIntersecting), {threshold:0}).observe(first);
     }
   </script>
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>
